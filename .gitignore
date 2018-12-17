@@ -1,0 +1,11 @@
+# Build
+/node_modules/*
+
+# Craft
+/craft/*
+!/craft/templates/
+
+# Misc.
+.cache
+.idea
+.DS_Store
