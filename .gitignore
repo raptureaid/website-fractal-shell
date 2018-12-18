@@ -2,10 +2,15 @@
 /node_modules/*
 
 # Craft
-/craft/*
-!/craft/templates/
+/craft/config/license.key
+/craft/modules/*
+/craft/storage/*
+/craft/vendor/*
+/craft/web/*
 
 # Misc.
 .cache
+.env
+.env.example
 .idea
 .DS_Store
