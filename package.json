@@ -8,20 +8,30 @@
   "license": "UNLICENSED",
   "private": true,
   "fractal": {
+    "engine": "@frctl/twig",
     "ext": ".twig",
     "prefix": "web",
     "title": "Design system"
   },
   "paths": {
+    "build": {
+      "fractal": "./build/fractal"
+    },
     "craft": {
       "base": "./craft/",
       "css": "./craft/web/assets/css/",
       "js": "./craft/web/assets/js/",
       "templates": "./craft/templates"
     },
-    "fractal": {}
+    "fractal": {
+      "components": "./fractal/components",
+      "docs": "./fractal/docs",
+      "map": "./fractal/components-map.json"
+    }
   },
   "devDependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/twig": "^1.0.0-beta.5",
     "gulp": "^4.0.0"
   },
   "repository": {
