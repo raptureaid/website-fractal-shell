@@ -28,6 +28,11 @@ return [
 
         // Prevent user enumration
         'preventUserEnumeration' => true,
+
+        // Define the root location
+        'aliases' => [
+            '@webroot' => dirname(__DIR__).'/web',
+        ],
     ],
 
     // Dev environment settings
