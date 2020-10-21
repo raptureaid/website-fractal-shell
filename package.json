@@ -32,16 +32,16 @@
     }
   },
   "devDependencies": {
-    "@frctl/fractal": "^1.1.7",
-    "@frctl/twig": "^1.0.0-beta.5",
-    "autoprefixer": "^9.4.3",
-    "gulp": "^4.0.0",
+    "@frctl/fractal": "^1.4.1",
+    "@frctl/twig": "^1.2.2",
+    "autoprefixer": "^9.8.6",
+    "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "minimist": "^1.2.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "minimist": "^1.2.5",
     "normalize.css": "^8.0.1",
-    "through2": "^3.0.0"
+    "through2": "^3.0.2"
   },
   "repository": {
     "type": "git",
